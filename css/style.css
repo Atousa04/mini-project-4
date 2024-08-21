@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Byekan';
+    src: url('../fonts/Byekan.ttf') format('truetype') ,
+        url('../fonts/Byekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'lalezar';
+    src: url(../fonts/lalezar.ttf) format('truetype') , 
+        url('../fonts/lalezar.woff') format(woff);
+}
+
+body {
+    font-family: Byekan;
+}
+
+.header {
+    height: 550px;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.header .nav-list {
+    list-style-type: none;
+}
+
+.header .nav-list .nav-item {
+    display: inline-block;
+    padding: 15px;
+}
+
+.header .nav-list .nav-item:hover {
+    color: orange;
+}
+
+.header .title {
+    font-size: 60px;
+    font-family: lalezar;
+    margin-top: 90px;
+}
+
+.header .title span {
+    color: orange;
+}
+
+.header .desc {
+    margin: auto;
+    width: 450px;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+.members {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.member-list {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.member-item {
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 15px #bbbbbb;
+}
+
+.member-pic {
+    width: 100%;
+}
+
+.member-bio {
+    padding: 20px;
+    text-align: justify;
+}
+
+.member-name {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.about {
+    height: 700px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #373837;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.circle {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(135, 135, 135, 0.5);
+    border-radius: 50%;
+    margin: auto;
+    padding: 100px 120px;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.bio {
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.footer {
+    height: 150px;
+    background-color: lightgray;
+    margin-top: 20px;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.icones {
+    height: 70px;
+    background-color: gray;
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    margin-top: 7px;
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 10px;
+}
